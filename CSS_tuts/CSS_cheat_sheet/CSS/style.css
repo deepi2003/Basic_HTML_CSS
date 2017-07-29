@@ -1,0 +1,93 @@
+* {
+	/*padding: 20px;*/
+	/*margin: 20px;	*/
+}
+
+body {
+	color: black;
+	/*font-family: Verdana, Helvetica;*/
+	font: bold 16px Verdana;
+	/*line-height: 1.6em;*/
+
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	color: blue;
+}
+
+a:active {
+	color:red;
+}
+
+a:visited {
+	color:purple;
+}
+.container {
+	/*padding: 50px;*/
+	margin: auto;
+	width: 80%;
+}
+.box-1 {
+	margin: 20px;	
+	color: green;
+	/*background-color: white;*/
+	border: 5px red solid;
+	
+}
+
+.box-1 h1{
+	color: green;
+	font-style: italic;;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	word-spacing: 1 em;
+
+}
+
+.box-2 {
+	margin: 20px;	
+	color: blue;
+	border: 2px black dotted;
+
+}
+
+.categories {
+	margin: 20px;
+	border: 2px black solid;
+	border-radius: 15px;
+}
+
+.categories h2{
+	text-align: center;
+}
+ .categories ul {
+ 	padding: 15px;
+ 	margin: 15px;
+ 	/*list-style:square; */
+ 	/*list-style: none;*/
+ 	list-style-image: url('../images/checkmark.png');
+ }
+
+ .categories li {
+ 	padding-bottom: 10px;
+ 	border-bottom: 2px black solid;
+
+ }
+
+.myform {
+	padding: 20px;
+}
+.myform .formgroup {
+	padding: 5px;
+}
+
+.myform .formgroup label {
+	margin-right: 5px;
+	width: 100px;
+	display: inline-block;
+}
