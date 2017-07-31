@@ -89,5 +89,43 @@ a:visited {
 .myform .formgroup label {
 	margin-right: 5px;
 	width: 100px;
+	display: block;
+}
+
+.formgroup input[type="text"], TextArea {
+	width: 100%;
+}
+	
+.btnSubmit {
+ font-weight: bold;
+}
+
+.formgroup input[type="submit"]:hover {
+
+	background: red;
+}
+
+.block {
+	width:33.3%;
+	float: left;  /* let the content float to left */
+	border: 1px solid;
+	padding: 5px;
+	box-sizing:border-box;   /* Including border + padding size also in width */
+
+}
+
+
+#main-section {
+	width: 70%;
+	float:left;
 	display: inline-block;
+	padding: 10px ;
+	box-sizing:border-box;
+}
+
+#side-bar {
+	width:30%;
+	padding: 10px ;
+	float:right;
+	box-sizing:border-box;
 }
