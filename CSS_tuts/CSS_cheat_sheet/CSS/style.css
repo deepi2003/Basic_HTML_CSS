@@ -10,6 +10,9 @@ body {
 	/*line-height: 1.6em;*/
 
 }
+clr {
+	clear: right;
+}
 
 a{
 	text-decoration: none;
@@ -126,6 +129,58 @@ a:visited {
 #side-bar {
 	width:30%;
 	padding: 10px ;
-	float:right;
+	display: inline-block;
 	box-sizing:border-box;
 }
+
+.p-box{
+	border: 1px solid;
+	width: 800px;
+	height: 300;
+	margin-top: 10px;
+	position: relative;
+	background-image: url('../images/bkgrnd.jpeg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.p-box h1 {
+	position: absolute;
+	top: 100px;
+	left: 50px;
+
+
+}
+
+.p-box h2 {
+	position: absolute;
+	left: 500px;
+	top:200px;
+}
+
+
+.fix-me {
+	position: fixed;
+	top: 100px;
+	background: gray;	
+}
+
+.index-li li:first-child{
+	background: grey;
+
+}
+
+.index-li li:last-child{
+	background: green;
+
+}
+
+.index-li li:nth-child(3){
+	background: blue;
+
+}
+.index-li li:nth-child(even){
+	background: yellow;
+
+}
+
