@@ -5,56 +5,64 @@
 	align-items:flex-end;
 	align-items:center;
 	flex-direction:column;*/
-
-	}
-
-	.container-2 {
-	display: flex;
-	/*justify-content:flex-end;
-	justify-content:center
-	justify-content:space-around;
-	*/
-
-	justify-content:space-between;
-
+	flex-direction:row;
+	flex-wrap:wrap;
 	}
 }
 
-.container-3{
+.container-2 {
 	display: flex;
-	flex-wrap:wrap;
+	/*justify-content:flex-end;
+	justify-content:center
+	justify-content:space-around;  what is differnence between space-around and space-evenly
+	*/
+	flex-warp:wrap;
+    /*align-items:stretch;*/
+	/*justify-content:flex-start;*/
+
+	}
+
+.container-3 {
+	display: flex;
+	flex-wrap:wrap;  /*understand flex-wrap behaviour better*/
 	justify-content:space-between;
+	/*flex-direction:column;*/
 }
 
 .container-1 div, .container-2 div, .container-3 div{
 	border:1px solid;
-	padding:10px;
+	padding:1%;
 }
 
 
 .box-1 {
-	flex:4;
+	flex:1;  /*This is the combination of flex-grow, flex-shrink and flex-basis. Default 0 1 auto */
+	flex-grow:2;
 	order:2;
+	align-self:flex-start;
 
 }
 
 .box-2 {
 	flex:1;
 	order:1;
+	
 
 }
 
 .box-3 {	
 	flex:1;
 	order:3;
+	flex-grow:3;
+	align-self:flex-end;
 
 }
 
 .container-2-box {
 	/*width:33%;*/
-	flex-basis:33%;
+			
 }
 
 .container-3-box {
-	flex-basis: 12%;
+	flex-basis: 15%;
 }
