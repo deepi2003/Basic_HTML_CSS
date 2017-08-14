@@ -1,0 +1,128 @@
+.navbar {
+	height:80px;
+	border-bottom: 4px solid indianred;
+	color: white;
+	background-color: rgb(39, 37, 37);
+	margin-bottom: 0;
+}
+h1{
+	margin: 0;
+}
+
+.navbar-header .navbar-brand {
+	padding: 15px 10px;
+
+}
+
+.navbar-header div {
+	display: inline;
+	font-weight: bold;
+	font-size: x-large;
+}
+.navbar-inverse .navbar-brand {
+	color: white;
+}
+
+.navbar-inverse .navbar-brand .company{
+	color: indianred;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+	color: white;
+}
+
+.navbar-inverse .navbar-nav > .active > a {
+	color:indianred;
+	background:transparent;
+}
+
+.jumbotron {
+	background:url('../images/laptop_bkgrnd.jpeg') no-repeat center;
+	background-size: cover;
+	height:40%;
+	color: white;	
+	margin-bottom: 0;
+	padding: 0;
+}
+
+
+.main-section{
+	font-size: 50;
+	font-weight: bolder;
+}
+
+#newsletter-container {
+	color: white;
+	background-color: rgb(39, 37, 37);
+	height: 11%;
+	padding: 10px 0;
+}
+
+#newsletter-container form {
+float: right;
+}
+
+#newsletter-container h3  {
+	float: left;
+}
+
+#newsletter-container input[type=text] {
+height: 38px;
+width: 289px;
+vertical-align: top;
+margin-top: 10px;
+margin-right: 5px;
+line-height: 20px;
+padding: 5px 10px 5px 20px;
+color: #727b7c;
+}
+
+#newsletter-container input[type=submit] {
+height: 38px;
+vertical-align: top;
+margin-top: 10px;
+margin-right: 5px;
+line-height: 20px;
+padding: 5px 10px 5px 10px;
+color: white;
+background-color: indianred;
+}
+
+
+#contents  {
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+    text-align: justify;
+
+}
+
+#contents img {
+	padding-top:32px;
+	vertical-align: text-bottom;
+	height: auto;
+	width: auto;
+}
+
+#contents {
+	margin-left: 65px;
+}
+
+#contents div {
+	display: inline;
+}
+
+.footer {
+  position: relative;
+  margin-top: -80px; /* negative value of footer height */
+  height: 80px;
+  clear:both;
+  padding-top:20px;
+	text-align: center;
+	background-color: indianred;
+}
+
+/*.active > a {
+	color:indianred  !important;
+	background:transparent	!important;
+}*/
