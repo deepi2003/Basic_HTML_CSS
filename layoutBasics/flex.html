@@ -16,11 +16,16 @@
 
    .mainContent {
      display: flex;
+    flex-direction: column;
        /*width: 60%;*/
    }
    .section{
      display: flex;
+     flex-direction: column;
+   }
 
+   .section div{
+     border: 2px solid;
    }
    .sidebar {
      display: flex;
@@ -33,6 +38,16 @@
    footer{
      align-self: center;
    }
+
+   @media screen(min-width: 768px) {
+     .mainContent{
+       flex-direction: row;
+     }
+     .section {
+       flex-direction: row;
+     }
+  }
+}
     </style>
   </head>
   <body class="body">
