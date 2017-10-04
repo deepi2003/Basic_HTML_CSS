@@ -1,0 +1,24 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 1px;
+}
+
+.letter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: black solid 1px;
+}
+
+@media screen and (min-width: 500px) {
+  .wrapper{
+  grid-template-columns: 1fr 1fr 1fr;
+}
+}
+
+@media screen and (min-width: 800px) {
+  .wrapper {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+}
