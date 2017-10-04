@@ -1,0 +1,34 @@
+.header{
+  display: flex;
+  /*flex-direction: column;*/
+  flex-wrap:wrap;
+}
+
+.hightlight {
+  color: green;
+}
+
+.menu ul {
+  list-style-type:none;
+  overflow: hidden;
+}
+
+.menu li{
+  display: inline;
+}
+
+.menu a {
+  text-decoration: none;
+	color: black;
+  font-size: x-large;
+}
+
+.menu a:hover {
+  text-decoration-line: underline;
+  color: green;
+}
+
+.menu .active {
+  color: green;
+  text-decoration-line: underline;
+}

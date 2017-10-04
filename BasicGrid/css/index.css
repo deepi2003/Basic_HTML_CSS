@@ -1,0 +1,54 @@
+
+header{
+  display: flex;
+  background-color: lightgray;
+  justify-content: center;
+}
+.header {
+  width: 80%;
+  text-align:center;
+}
+
+.mainBody {
+  display: flex;
+  justify-content: space-between;
+  text-align: justify;
+
+}
+
+.mainSection {
+  width: 68%;
+  margin-bottom: 10px;
+}
+
+.cols-2 {
+  display: flex;
+    justify-content: space-between;
+}
+.cols-2 div {
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  /*width: calc(1/2*100% - (1 - 1/2)*10px);*/
+  width:48%;
+}
+
+.sidebar {
+  display: flex;
+  width: 30%;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 35px;
+}
+
+@media screen and (max-width: 500px) {
+  .cols-2 {
+    display: block;
+  }
+  .cols-2 div {
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+}
